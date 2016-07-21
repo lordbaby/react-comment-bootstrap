@@ -18,4 +18,4 @@ This is the React comment box example from [the React tutorial](http://facebook.
 
 # 如图
 
-!(/public/images/1.png)
+![haha](/public/images/1.png)
