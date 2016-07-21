@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1388534400000,
+        "author": "Peter",
+        "text": "Hi！ React"
+    },
+    {
+        "id": 1469095212641,
+        "author": "asdas",
+        "text": "asdsad"
+    },
+    {
+        "id": 1469095244194,
+        "author": "hello",
+        "text": "teste"
+    },
+    {
+        "id": 1469095417649,
+        "author": "dasdsa",
+        "text": "<p>adsada<img src=\"http://img.baidu.com/hi/jx2/j_0024.gif\"/></p>"
+    },
+    {
+        "id": 1469095537312,
+        "author": "aaaaaaa",
+        "text": "<p><img src=\"http://img.baidu.com/hi/jx2/j_0013.gif\"/></p>"
+    },
+    {
+        "id": 1469096122864,
+        "author": "adasdsada",
+        "text": "<p>dasdad</p>"
+    },
+    {
+        "id": 1469097229953,
+        "author": "gaga",
+        "text": "<p><img src=\"http://img.baidu.com/hi/jx2/j_0003.gif\"/></p>"
+    }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "react-comment-bootstrap",
+  "version": "1.0.0",
+  "description": "react tutorial.ui has bootstrap ueditor.backend with nodejs",
+  "main": "server.js",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "browser": "^0.2.6",
+    "express": "^4.14.0",
+    "ueditor": "^1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "lordbaby",
+  "license": "ISC"
+}
