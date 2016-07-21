@@ -73,8 +73,7 @@ var CommentForm=React.createClass({
 		return (
 			<form className="form-horizontal" onSubmit={this.handleSubmit}>
 				<div className="form-group">
-					<label for="" className="col-sm-2 control-label">Name</label>
-					<div className="col-sm-10">
+					<div className="col-sm-12">
 						<input type="text" 
 								className="form-control" 
 								onChange={this.handleAuthorChange} 
@@ -83,12 +82,12 @@ var CommentForm=React.createClass({
 					</div>
 				</div>
 				<div className="form-group">
-					<div className="col-sm-offset-2 col-sm-10">
+					<div className="col-sm-12">
 						<Ueditor id="ueditor" value={this.state.text} ueditor={this.setEditor} onTextChange={this.handleTextChange} />
 					</div>
 				</div>
 				<div className="form-group">
-					<div className="col-sm-offset-2 col-sm-10">
+					<div className="col-sm-12">
 						<input type="submit" 
 								className="form-control btn btn-primary" 
 								value="发表"/>
