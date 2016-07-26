@@ -5,6 +5,7 @@ var express=require('express'),
 	app=express();
 
 var COMMENTS_FILE = path.join(__dirname+'/public/', 'comments.json');
+var PRODUCTS_FILE=path.join(__dirname+'/public/', 'products.json');
 
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
@@ -59,6 +60,30 @@ app.post('/api/comments', function(req, res) {
       }
       res.json(comments);
     });
+  });
+});
+
+app.get('/api/products',function(req,res){
+  fs.readFile(PRODUCTS_FILE,function(err,data){
+    if(err){
+      console.error(err);
+      process.exit(1);
+    }
+    var products=JSON.parse(data),
+        newProducts=[];
+    var text=req.query.text;
+    console.log(text);
+    if(text&&text.trim()!==""){
+      for(var i=0;i<products.length;i++){
+        var product=products[i];
+        if(product.name.indexOf(text)!==-1){
+          newProducts.push(product);
+        }
+      }
+    }else{
+      newProducts=products;
+    }
+    res.json(newProducts);
   });
 });
 

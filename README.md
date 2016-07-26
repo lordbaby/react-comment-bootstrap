@@ -19,3 +19,15 @@ This is the React comment box example from [the React tutorial](http://facebook.
 # 如图
 
 ![haha](/public/images/1.png)
+
+# Thinking in React
+
+[原文地址](https://facebook.github.io/react/docs/thinking-in-react.html)
+
+在原文基础上做了改进
+
+步骤同上
+
+浏览器中敲入`http://127.0.0.1:3000/search.html`
+
+![gaga](/public/images/2.png)
